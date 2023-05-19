@@ -14,7 +14,7 @@ echo "---> Installing application source"
 
 cp -Rf /tmp/src/*.html ./
 build_date=$(date "+%d/%m/%Y")
-Echo "Page buit on $build_date" >> info.html
+echo "Page buit on $build_date" >> info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
 
